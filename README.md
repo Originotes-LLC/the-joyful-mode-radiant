@@ -1,52 +1,46 @@
-# Radiant
+# The Joyful Mode
 
-Radiant is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org), with a blog powered by [Sanity](https://www.sanity.io).
+Welcome to **The Joyful Mode**, a creative agency that brings a fresh, playful approach to web design, SEO, and marketing for small to medium businesses. Whether you're looking to build a brand-new website, optimize your online presence, or create marketing strategies that speak directly to your audience, we've got you covered!
 
-## Getting started
+## Services We Offer
 
-To get started with this template, first install the npm dependencies:
+At **The Joyful Mode**, we provide three core services designed to help your business thrive:
 
-```bash
-npm install
-```
+1. **Web Design & Development**  
+   We create visually stunning, user-friendly websites that showcase your brand and deliver an excellent user experience across all devices.
 
-Next, create a new Sanity project to power the blog within this template:
+2. **Search Engine Optimization (SEO)**  
+   Our SEO strategies are designed to boost your visibility, drive traffic, and get your business in front of the right people.
 
-```bash
-npm create sanity@latest -- --env=.env.local --create-project "Radiant Blog" --dataset production
-```
+3. **Marketing Strategies**  
+   We craft creative, data-driven marketing campaigns that focus on engagement and growth without the gimmicks.
 
-This will prompt you to create a new Sanity account if you don't have one already. When asked "Would you like to add configuration files for a Sanity project in this Next.js folder?", choose "n".
+## Monthly Subscription Plans
 
-Next, optionally import the demo seed data for the blog:
+We offer three straightforward subscription plans to suit your needs:
 
-```bash
-npx sanity@latest dataset import seed.tar.gz
-```
+1. **No-Nonsense Starter Pack** — $3,000/month  
+   Perfect for businesses getting started online or in need of a refresh. This plan includes essential website and SEO services to get your digital presence on track.
 
-Next, run the development server:
+2. **Growth Mode** — $5,000/month  
+   A robust option for businesses ready to scale. We’ll expand your website’s capabilities, improve search rankings, and enhance your digital marketing strategies.
 
-```bash
-npm run dev
-```
+3. **Momentum Mode** — $11,000/month  
+   For businesses on the move. Comprehensive web design, SEO, and marketing services designed to keep your brand growing and evolving.
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+## Why Choose The Joyful Mode?
 
-To manage your blog content, visit the embedded Sanity Studio at [http://localhost:3000/studio](http://localhost:3000/studio).
+We’re not your typical agency. Our approach blends creativity, strategy, and a dash of wit to give your brand an unforgettable edge. We believe in delivering results without over-promising. At The Joyful Mode, you get honest, down-to-earth service designed to make your business shine.
 
-## Customizing
+## Getting Started
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+**Contact Us**  
+ Reach out via [our website](https://www.thejoyfulmode.com) or email us directly at [hello@thejoyfulmode.com](mailto:hello@thejoyfulmode.com). We’d love to learn more about your business and how we can help.
 
-## License
+## Follow Us
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+Stay connected with us on our journey! Follow us for updates, tips, and a behind-the-scenes look at our projects.
 
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [Sanity](https://www.sanity.io) - the Sanity website
+- X: [@TheJoyfulMode](https://x.com/thejoyfulmode)
+- Instagram: [@TheJoyfulMode](https://www.instagram.com/thejoyfulmode/)
+- Facebook: [The Joyful Mode](https://www.facebook.com/profile.php?id=61564767583756)
