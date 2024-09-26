@@ -5,11 +5,12 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from '@headlessui/react'
-import { Bars2Icon } from '@heroicons/react/24/solid'
-import { motion } from 'framer-motion'
-import { Link } from './link'
-import { Logo } from './logo'
 import { PlusGrid, PlusGridItem, PlusGridRow } from './plus-grid'
+
+import { Bars2Icon } from '@heroicons/react/24/solid'
+import { Link } from './link'
+import { Logo } from './logo_new'
+import { motion } from 'framer-motion'
 
 const links = [
   { href: '/pricing', label: 'Pricing' },
@@ -83,7 +84,7 @@ export function Navbar({ banner }: { banner?: React.ReactNode }) {
           <div className="relative flex gap-6">
             <PlusGridItem className="py-3">
               <Link href="/" title="Home">
-                <Logo className="h-9" />
+                <Logo className="h-20" />
               </Link>
             </PlusGridItem>
             {banner && (
