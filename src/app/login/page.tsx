@@ -1,11 +1,12 @@
+import { Checkbox, Field, Input, Label } from '@headlessui/react'
+
 import { Button } from '@/components/button'
+import { CheckIcon } from '@heroicons/react/16/solid'
 import { GradientBackground } from '@/components/gradient'
 import { Link } from '@/components/link'
-import { Mark } from '@/components/logo'
-import { Checkbox, Field, Input, Label } from '@headlessui/react'
-import { CheckIcon } from '@heroicons/react/16/solid'
-import { clsx } from 'clsx'
+import { Mark } from '@/components/logo_old'
 import type { Metadata } from 'next'
+import { clsx } from 'clsx'
 
 export const metadata: Metadata = {
   title: 'Login',
