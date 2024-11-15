@@ -1,10 +1,4 @@
-import { Button } from '@/components/button'
-import { Container } from '@/components/container'
-import { Footer } from '@/components/footer'
 import { Gradient, GradientBackground } from '@/components/gradient'
-import { Link } from '@/components/link'
-import { LogoCloud } from '@/components/logo-cloud'
-import { Navbar } from '@/components/navbar'
 import { Heading, Lead, Subheading } from '@/components/text'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import {
@@ -12,6 +6,13 @@ import {
   ChevronUpDownIcon,
   MinusIcon,
 } from '@heroicons/react/16/solid'
+
+import { Button } from '@/components/button'
+import { Container } from '@/components/container'
+import { Footer } from '@/components/footer'
+import { Link } from '@/components/link'
+import { Navbar } from '@/components/navbar'
+import { LogoCloud } from '@/components/problem-numbers'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {

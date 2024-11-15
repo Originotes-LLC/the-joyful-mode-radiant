@@ -16,11 +16,11 @@ const problems = [
   {
     number: 62,
     description:
-      'of users who are influenced by social media when purchasing something.',
+      'of users are influenced by social media when purchasing something.',
   },
 ]
 
-export function LogoCloud({
+export function ProblemNumbers({
   className,
 }: React.ComponentPropsWithoutRef<'div'>) {
   return (

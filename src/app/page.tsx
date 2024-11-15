@@ -1,21 +1,21 @@
 import { Heading, Subheading } from '@/components/text'
 
 import { BentoCard } from '@/components/bento-card'
+import { BusinessProblems } from '@/components/business-problems'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
+import { FounderQuote } from '@/components/founders-quote'
 import { Gradient } from '@/components/gradient'
 import { Keyboard } from '@/components/keyboard'
-import { Link } from '@/components/link'
 import { LinkedAvatars } from '@/components/linked-avatars'
-import { LogoCloud } from '@/components/logo-cloud'
 import { LogoCluster } from '@/components/logo-cluster'
 import { LogoTimeline } from '@/components/logo-timeline'
 import { Map } from '@/components/map'
-import type { Metadata } from 'next'
 import { Navbar } from '@/components/navbar'
-import { Screenshot } from '@/components/screenshot'
+import { ProblemNumbers } from '@/components/problem-numbers'
 import { Testimonials } from '@/components/testimonials'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   description:
@@ -40,19 +40,18 @@ function Hero() {
         />
         <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-48 md:pt-32">
           <h1 className="font-display text-balance text-6xl/[0.9] font-medium tracking-tight text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">
-            {/* Your online presence could be a snoozefest. Let's wake it up. */}
-            Your online look could be a little sleepy. Let&rsquo;s wake it up.
+            Your online presence looks a little sleepy. Let&rsquo;s wake it up.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Armed 🛡️ with nothing but keyboards ⌨️, caffeine ☕, and an crazy
-            obsession for your success 📈 - which my sister says is just a fancy
-            term for being a workaholic 😂 -, we turn traffic 🚦 into trust 🤝,
-            and trust into loyal customers 🧑.
+            Armed with nothing but keyboards, caffeine ☕, and an crazy
+            obsession for your success 📈 - which my partner says is just a
+            fancy term for being a workaholic 😂 -, we turn traffic 🚦 into
+            trust, and trust into loyal customers.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Have questions?</Button>
             <Button variant="secondary" href="/pricing">
-              See pricing
+              Explore our plans
             </Button>
           </div>
         </div>
@@ -66,14 +65,26 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          A snapshot of your entire sales pipeline.
+          {/* Don&rsquo;t miss out on critical opportunities. */}
+          When your business goes dark, so do your profits.
         </Heading>
-        <Screenshot
+        <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
+          Imagine running a business that&rsquo;s basically hiding in plain
+          sight. You&rsquo;ve got the goods, the service, the charm, but none of
+          your customers find you online. Fun fact: 91% of web pages never get a
+          single visitor. Not one. And if your website isn&rsquo;t
+          mobile-friendly? Well, you&rsquo;re missing out on 76% of people who
+          are ready to throw money at you after searching for a local business.
+        </p>
+        <BusinessProblems />
+        <FounderQuote />
+
+        {/* <Screenshot
           width={1216}
           height={768}
           src="./screenshots/app.png"
           className="mt-16 h-[36rem] sm:h-auto sm:w-[76rem]"
-        />
+        /> */}
       </Container>
     </div>
   )
@@ -199,7 +210,7 @@ export default function Home() {
       <Hero />
       <main>
         <Container className="mt-10">
-          <LogoCloud />
+          <ProblemNumbers />
         </Container>
         <div className="bg-gradient-to-b from-white from-50% to-gray-100 py-32">
           <FeatureSection />
